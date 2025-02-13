@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Vista</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Endless Vista</h1>
+            <div class="color-mode">
+                <i class="fas fa-sun"></i>
+                <div class="mode-switch"></div>
+                <i class="fas fa-moon"></i>
+            </div>
+        </header>
+
+        <main class="feed" id="feed"></main>
+        <div class="loader" id="loader">
+            <div class="bounce-ball"></div>
+        </div>
+
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-content">
+                <span class="close-btn">&times;</span>
+                <img id="lightbox-img" src="" alt="">
+                <div class="caption" id="lightbox-caption"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
